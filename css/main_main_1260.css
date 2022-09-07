@@ -1,0 +1,202 @@
+﻿@charset "utf-8";
+ section {width:100%; height:auto;float:left;}
+@media (min-width:1260px){
+    /*슬라이더*/
+  #slider {width:100%; height:947px; background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/italianfood.png); background-repeat:no-repeat;background-size:cover; display:flex; flex-direction:column;justify-content:center;float:left;}
+/*상품슬라이더*/
+#containerwrapper {width:100%; height:454px;float:left; display:flex;justify-content:center;align-items:center;flex-direction:column;}
+  #containerwrapper > h3 {text-align:center;color:#dba94b;;font-size:50px;font-family:'Great Vibes';}
+  #containerwrapper > h1 {text-align:center; color:#eee;font-size:48px;font-family: 'Scheherazade New', serif;}
+  .viewmenu {width:200px; color:#eee;border:1px solid #dba94b; border-radius:5px;font-family: 'Scheherazade New', serif;text-align:center;}
+  .viewmenu a {font-size:20px; color:#eee;text-decoration:none;}
+  .viewmenu:hover {background-color:#dba94b;}
+  #iconimg {color:#fff; display:none;}
+
+
+   /*식당소개*/
+
+   #about {width:100%; height:1060px; margin:0 auto; float:left;}
+   #abouttext {width:468px;height:auto;margin:50px auto;display:flex; flex-flow:column wrap;align-items:center;justify-content:center;}
+   #aboutimg1 img{width:120px; height:21px;}
+   .abouttext1 {text-align:center; font-size:30px;margin:20px auto;font-family:'Great Vibes'; color:#dba94b;}
+   .abouttext2 {height:50px;text-align:center;font-size:34px;font-family: 'Scheherazade New', serif;}
+   #abouttext >  p {text-align:center; font-size:17px;font-family: Arial, Helvetica, sans-serif;margin:50px;}
+
+   #aboutimg2 {width:870px;height:642.34px; margin:0 auto;}
+   #aboutimg2 > img {width:100%; height:100%;}
+
+   /*음식 상품 정보*/
+   #uppertitle {width:100%; height:1200px;float:left; background-image:linear-gradient(#fff9ee 53%, rgba(255, 249, 238, 0.8)),url(img/background1.jpg);
+    background-size:cover;background-repeat:no-repeat;}
+   .uppertext {width:468px;height:237px;margin:50px auto;display:flex; flex-direction:column;justify-content:center;align-items:center;}
+   #upperimg img{width:120px; height:21px;}
+   .uppertext1 {text-align:center; font-size;margin:20px auto;font-family:'Great Vibes'; color:#dba94b;}
+   .uppertext2 {text-align:center;font-size:34px;font-family: 'Scheherazade New', serif;}
+   p {text-align:center; font-size:17px;font-family: Arial, Helvetica, sans-serif;margin:20px;}
+
+
+   #upperimg2 {width:1000px; height:1000px; margin:0 auto;display:flex;flex-direction:column;}
+   #bigblock {width:100%;display:flex;flex-direction:row; justify-content:space-evenly;}
+   #bigblock2 {width:100%;display:flex;flex-direction:row; justify-content:space-evenly;}
+   .block {width:38%; height:auto;  margin:10px;overflow:hidden;border-radius:10px;}
+   .block img{width:100%;height:100%;transform:scale(1.1);}
+   .blocktext1{width:50%; height:35px; float:left;background-color:rgb(30, 29, 47,0.7);position:relative;bottom:50px; padding:5px;border-radius:5px;}
+   .block >.blocktext1 a{font-size:14px; color:#dba94b;text-decoration:none;}
+   .blocktext2{width:30%; height:35px; float:left;position:relative;bottom:50px;background-color:#dba94b;padding:5px;border-radius:5px;text-align:center;}
+   .block >.blocktext2 a{font-size:14px; color:#fff;text-decoration:none;}
+
+
+   /*사실 타이틀*/
+   #facts {width:100%; height:455px;background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background2.jpg);float:left;background-position:0px 0px,50% 100%;background-repeat:no-repeat; background-size:auto, cover;background-attachment: scroll, fixed;
+    display:flex; justify-content:center;align-items:center;margin:0 auto; }
+    #factwrapper {width:100%;height:auto;margin:0 auto;display:flex;flex-direction:row;justify-content:center; align-content:center;float:left;}
+    #bigfact {width:100%; height: auto;margin:0 auto;display:flex; flex-direction:row; flex-wrap:wrap;}
+
+    #bigfact> .fact1 {width:80%;height:auto;margin:0 auto; }
+    #bigfact> .fact1 > .fact {width:90%;height:auto;display:flex;flex-direction:row;justify-content:center; align-content:center;margin:0 auto;}
+    #bigfact> .fact1 > .fact > .factbox > .facttext {width:100%;text-align:center;color: rgb(219, 169, 75);font-size:50px;}
+    #bigfact> .fact1 > .fact > .factbox {width:30%;border-right:1px solid rgb(219, 169, 75,0.5);padding: 50px 50px;border-bottom:none;margin:0 auto;}
+    #bigfact> .fact1 > .fact> #factbox3 {width:30%;padding:50px 50px;margin:0 auto;}
+    #bigfact> .fact1 > .fact> #factbox3 > .facttext {width:100%;font-size:50px;text-align:center;color:#dba94b;}
+
+
+    #factimg {width:120px; height:21px; margin:20px auto 0;display:flex; flex-direction:row;}
+    #factimg > img {width:100%; height:100%;}
+    .facttext2 {text-align:center;margin:50px auto 0; color:#eee;font-size:20px; text-transform:uppercase;}
+
+     /*음식메뉴*/
+     #foodmenu {width:100%; height:964px; background-image:url(../img/background3.png);background-repeat:repeat;background-size: contain; float:left;}
+     #food {display:flex;flex-flow:column wrap;align-items:center;margin:50px;}
+     .foodtext {width:468px; height:237px; }
+     #foodimg {width:120px; height:21px; margin:0 auto;}
+     #foodimg > img {width:100%; height:100%;}
+     .foodtext1 {text-align:center; font-size:30px;font-family:'Great Vibes'; color:#dba94b;margin:20px;}
+     .foodtext2 {text-align:center;font-size:34px;font-family: 'Scheherazade New', serif;}
+     .foodtext p {text-align:center; font-size:17px;margin:20px;font-family: Arial, Helvetica, sans-serif;}
+
+     #bigbutton {width:700px; height:50px;margin:20px auto;display:flex; flex-flow:row wrap;justify-content:space-between;}
+     #bigbutton > .btn1 {text-transform:uppercase;background-color:rgba(26, 29, 46, 0.97);padding:20px 50px;border:none;border-radius:5px;margin:0 auto;}
+     .btn1 a {text-decoration:none;color:#eee;}
+     #bigbutton >.btn2 {text-transform:uppercase;background-color:#dba94b;padding:20px 50px;border:none;border-radius:5px;margin:0 auto;}
+     .btn2 a {text-decoration:none;color:#eee;}
+     #bigbutton >.btn2:hover{background-color:#c9983e;}
+     #bigbutton >.btn3 {text-transform:uppercase;background-color:#dba94b;padding:20px 50px;border:none;border-radius:5px;margin:0 auto;}
+     .btn3 a {text-decoration:none;color:#eee;}
+     #bigbutton >.btn3:hover{background-color:#c9983e;}
+
+     #bigfood {width:70%; height:547px; margin:0 auto;display:flex; flex-direction:column;align-items:center;border-radius:5px;}
+     #bigfood  > .foodimgbox {width:90%; height:120px; background-color:#fff;margin:20px;border:1px solid rgb(163, 163, 163, 0.5);border-radius:5px;}
+     #bigfood > .foodimgbox > a img {width:12%; height:100%;float:left;border-radius:5px;}
+     #dollar {width:12%;height:80%;color:#dba94b;float:right;border-left:2px solid rgb(163, 163, 163, 0.5);margin:10px;padding:10px;font-size:20px; text-align:center;line-height:70px;font-family:'Scheherazade New', serif;}
+
+
+     .foodtextbox {width:70%; height:100%;float:left;display:flex;flex-direction:column; align-items:flex-start;}
+     .foodtextbox > span {background-color:#ccc; border-radius:5px;font-size:12px;padding:5px;text-align:center;margin:20px 0 0 20px;}
+     .foodtextbox > h1 {color:#dba94b;font-size:20px;font-family: 'Scheherazade New', serif;margin:0 0 0 20px;}
+     .foodtextbox .p1 {text-align:left;margin:0 0 0 20px;font-family: 'Scheherazade New', serif;}
+
+      /*최근레시피*/
+      .recent {width:100%; height:500px;background-image:linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.61)),url(../img/background3.jpg); background-position:0px 0px,50% 50%;
+        background-repeat:no-repeat; background-size:auto, cover; margin:0 auto; float:left;background-attachment: scroll, fixed;}
+  
+        #recenttext {width:468px; height:167px; margin:50px auto 0;display:flex; flex-direction:column;align-items:center;}
+        #recentimg {width:120px; height:21px;margin:20px;}
+        #recentimg > img {width:100%; height:100%;}
+        .recenttext1 {color:#dba94b;text-align:center;font-size:30px;font-family:'Great Vibes'; }
+        .recenttext2 {color:#eee;text-align:center;font-size:34px;font-family: 'Scheherazade New', serif;margin:10px;} 
+  
+        #recentimg1 {width:100%; height:250px; float:left;display:flex; flex-flow:row wrap;margin:50px 0 0 0;}
+        #recentwrapper {width:100%; height:250px;display:flex; flex-flow:row wrap;}
+        .boximg {width:16.666%; height:250px;overflow:hidden;}
+        .boximg > img{width:100%; height:100%;}
+  
+        #recentwrapper2 {width:100%; height:250px; display:flex; flex-direction:row; flex-wrap:wrap;}
+        .iconwrapper {width:16.666%; height:250px;position:relative;top:-250px;left:0px;display:flex;flex-flow:row wrap;}
+        .iconwrapper:hover { background-color:rgba(26, 29, 46, 0.85);}
+        .icon2 {width:100%; height:250px;}
+        #icon1 {width:100%; height:250px; font-size:30px;color:#eee;position:relative;text-align:center;line-height:250px;opacity:0;}
+        #icon1:hover {opacity:0.8;}
+        i:hover {opacity:1;}
+
+         /*팀소개*/
+      #team {width:100%; height:auto; margin:0 auto;float:left;margin:0 auto; }
+      .teamtext {width:468px; height:167px; margin:100px auto 0;display:flex; flex-direction:column;align-items:center;justify-content:center;}
+      .teamimg {width:120px; height:21px;margin:10px;}
+      .teamimg > img {width:100%; height:100%;}
+      .teamtext1 {color:#dba94b;text-align:center;font-size:30px;font-family:'Great Vibes'; }
+      .teamtext2 {color:#000;text-align:center;font-size:34px;font-family: 'Scheherazade New', serif;}
+      .teamtext3 {text-align:center; font-size:17px;margin:20px;font-family: Arial, Helvetica, sans-serif;}
+
+      #peoplewrapper {width:80%; height:655px; margin:100px auto;}
+      #teampeople {display:flex; flex-flow:row wrap;justify-content: center;}
+      #teamp {width:30%; height:655px;display:flex; flex-flow:column;justify-content: center;align-items: center;}
+      #teamp > .people {width:90%; height:100%;margin:5px auto;}
+      .people img {width:100%; height:100%;}
+      .teamtitle {color:#dba94b;font-family: 'Great Vibes';font-size:20px;margin:10px;}
+      .teamname {color:#000;font-family: 'Scheherazade New', serif;font-size:24px;}
+
+      .social {display:flex; flex-direction:row;justify-content: center;margin:50px;}
+      .icon1 {width:30px; height:30px;background-color: #dba94b;margin:5px;border-radius: 5px;}
+      .icon1 a {margin:5px; padding:5px; color:#eee; font-size: 12px;line-height:30px;}
+      .icon1:hover {background-color: #121521;transition: all 0.5s;}
+
+       /*블로그 소개*/
+       #blog {width:100%; height:838px; background-color:#fff9ee;float:left;display:flex; flex-direction:column;float:left;}
+       .blogtext {width:468.45px; height:237.05px;margin:30px auto;display:flex; flex-direction:column;justify-content: center;align-items: center;}
+       .blogimg {width:120px; height:21px; margin:20px auto; }
+       .blogimg > img {width:100%; height:100%;}
+       .blogtext1 {text-align:center; font-size:30px;margin:0 auto;color:#dba94b;font-family:'Great Vibes'; }
+       .blogtext2 {text-align:center;font-size:34px;margin:20px auto 0 ;font-family: 'Scheherazade New', serif;}
+       .blogtext3 {text-align:center; font-size:17px;font-family: Arial, Helvetica, sans-serif;}
+ 
+       #bigwrapper {width:80%; height:420px; margin:10px auto;display: flex; flex-direction:column;flex-wrap:wrap;float:left;justify-content: center;}
+       .blogwrapper {width:30%; height:420px;margin:50px auto;}
+       .blogimg1 {width:100%; height:420px; }
+       .blogimg1 img{width:100%; height:100%;border-radius: 5px;}
+       .infowrapper {width:80%; height:150px;display:flex; flex-direction:column; background-color:rgba(26, 29, 46, 0.9);position:relative; bottom:200px;border-radius:5px; border-left:5px solid #dba94b }
+       .blogdate {font-size:20px; font-family:'Great Vibes'; color:#dba94b;margin:20px 0 0 50px;float:left;}
+       .blogtitle {font-size:15px; font-family:'Scheherazade New', serif; color:#eee; margin:10px 0 0 50px;text-transform:uppercase;padding:10px;}
+
+        /*고객 명단*/
+      #client {width:100%;height:auto; background-image:linear-gradient(rgba(17, 19, 31, 0.95),rgba(26, 29, 46, 0.75)),url(../img/background4.jpg);background-size:cover;background-position:center,40% 20%;
+        background-repeat:no-repeat; background-size:auto, cover; margin:0 auto; float:left;background-attachment: scroll, fixed;float:left;}
+        .clienttext {width:468px; height:auto; display:flex; flex-direction:column; align-items: center;margin:50px auto;}
+        #clientimg {width:120px; height:21px; margin:20px;}
+        #clientimg > img {width:100%; height:100%;}
+        .clienttext1 {text-align:center; font-size:30px;font-family:'Great Vibes'; color:#dba94b;magin:20px;}
+        .clienttext2 {text-align:center;font-size:34px;font-family: 'Scheherazade New', serif;color:#eee;}
+  
+        #clientwrapper {width:100%; height:300px;display:flex; flex-direction:row;flex-wrap;border-top: 1px solid rgb(204, 204, 204,0.5);}
+        .client1 {width:600px;display:flex; flex-direction:row;margin:50px 0 0 0;}
+        .client {width:1100px; height:100px;display:flex; flex-direction: row;justify-content: center;align-items: center;margin:20px auto;}
+        .clientimg {width:150px; height:50px;margin:20px;}
+        .clientimg img {width:100%; height:100%;}
+
+         /*리뷰*/
+      #r2{width:100%; height:1100px;float:left;}
+      #r1 {width:468.45px; height:300px; margin:10px auto;display:flex; flex-direction:column;justify-content: center;align-items: center;}
+      .reviewimg {width:120px; height:21px; margin:10px auto 0;}
+      .reviewimg > img {width:100%; height:100%;}
+      .reviewtext1 {text-align:center; font-size:30px;margin:20px auto;color:#dba94b;font-family:'Great Vibes'; }
+      .reviewtext2 {text-align:center;font-size:34px;margin:20px auto 0 ;font-family: 'Scheherazade New', serif;}
+      .reviewtext3 {text-align:center; font-size:17px;font-family: Arial, Helvetica, sans-serif;}
+
+      #reviewwrapper{width:100%; height:auto; display:flex; flex-direction: column;justify-content: center;align-items:center;margin:0 auto;float:left;}
+      #bigarrow {width:300px; height:50px; display:flex; flex-direction:row;justify-content: space-between;margin:50px 0 0 0;float:left;position:relative;top:20px;}
+      .arrow {width:70px; height:50px; border:1px solid #ccc;margin:10px;color:#333;font-size: 20px;line-height: 50px;text-align: center;background-color:#eee;border-radius: 10px;;}
+      #review1 {width:100%;height:430px; display:flex; flex-flow:row wrap;justify-content: center;}
+      .peoplelast {width:70px; height:70px;margin:20px auto;border-radius: 10px; box-shadow: 10px 10px 10px rgb(114, 114, 114,0.5);}
+      .review2 {width:578px; height:500px;margin:10px 20px 0 0;border:1px solid #ccc; border-radius:10px;display:flex; flex-direction:column;justify-content:center;
+        align-items: center;font-family: Arial, Helvetica, sans-serif;}
+        .review2:hover {box-shadow: 4px 4px 4px rgb(114, 114, 114,0.3);}
+      .review2 > h4 {width:100%;text-align:center;font-size:20px;margin:30px 0 0 0;font-family: 'Scheherazade New', serif;color:#343e52;}
+      .review2 > .rev {width:70%; height:150px;text-align:center;font-size:16px;font-family: Arial, Helvetica, sans-serif;line-height:30px;color:#8796b4;}
+      .review2 > h5 {width:100%;text-align:center;font-size:20px;font-family: 'Scheherazade New', serif;color:#343e52;}
+      .review2 > span {width:100%; text-align: center;font-size:12px;color:#8796b4;}
+
+       /*지도*/
+    #map {width:100%; height:400px;background-color:#ccc;float:left;}
+
+}
+
+ 

@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+
+* {box-sizing: border-box; margin: 0;padding: 0;}
+      ul,li,ol {list-style: none;margin: 0;padding: 0;}
+
+ @media (max-width:599px){
+        /*헤더*/
+        header {width:100%;height:100px;background-color: #181a26;}
+
+        /*네비*/
+        .navwrapper {width: 100%;height:100px; display: flex; align-items: center; justify-content:space-between;}
+        #burgerwrapper {width:150px;display:flex; flex-direction:row;flex-wrap: wrap;align-content: center;align-items:center;}
+
+        .logo {width:200px; line-height: 50px; color:#fff; text-align: center;margin:30px 0 10px 20px; padding: 10px;}
+        .logo a{width:14%; height:50px; font-size:50px;  text-decoration:none; color:#fff;font-family:'Great Vibes';float:left;margin:20px 0 0 0;}
+        .logo a:hover {color:#dba94b; transition:all 0.5s}
+
+
+        #navmenu1 {width:100%; height:auto;display:flex; flex-direction:column;text-align:center;}
+
+        #navmenu1 >.home {text-decoration:none; color:#dba94b;font-family: 'Scheherazade New', serif;font-size: 16px;}
+
+        
+        #navmenu1 a {width:100%; height:100%;text-decoration:none;color:#fff;font-family: 'Scheherazade New', serif;line-height:50px;font-size:16px;background-color:rgba(0, 0, 0, 0.7); z-index:3; }
+        #navmenu1 a:hover {color:#dba94b;background-color:#000;}
+        #hamburger {width:40px; height:40px;padding:10px;border:1px solid #fff;border-radius:5px;margin:40px 0 0 0;}
+        #burgerwrapper img:hover {background-color:rgb(255, 255, 255,0.3); cursor:pointer;}
+
+
+        #reserve1, #navmenu,#nav2{display:none;}
+
+
+        #reserve2 {width:70px; height:50px; border:1px solid #dba94b; border-radius:10px; padding:5px 10px;font-family: 'Scheherazade New', serif;text-decoration: none;margin:40px 0 0 10px;color:#fff;}
+        #reserve2:hover {background-color:#dba94b;color:#fff;}
+
+         /*푸터*/
+
+        #address {width:100%; height:900px;float:left;background-image: linear-gradient(rgba(26, 29, 46, 0.95), rgba(26, 29, 46, 0.95)),url(../img/background5.jpg);background-size:cover;
+          background-position:0px 0px,50% 20%;background-attachment: scroll, fixed;display:flex;flex-direction:column;}
+        #addresswrapper {width:100%; height:auto;margin:0 auto;float:left;margin:50px 0 0 0 ;}
+        #addressbox {width:100%; height:458px;display:flex; flex-direction:column;align-content:space-between;align-items:center;margin:0 auto;float:left;}
+        #time {width:235px; height:295px; display:flex; flex-direction: column;margin:0 auto;}
+        .time1 {color:#dba94b;font-size:14px;margin:10px;text-align:center;}
+        .open {width:225px; height:20px;background-color:#121521;margin:20px 0 0 0;color:#71818a;text-align:center;}
+        #address1 {width:100%;display: flex; flex-direction: column;margin:100px auto;align-items:center;}
+        .address3 {width:300px;color:#71818a;text-align:center;margin:20px auto;}
+        .address2 {width:100%;color:#dba94b;margin:40px auto;font-size:14px;text-align:center;}
+        .e-mail {width:100%;color:#dba94b;margin:20px auto;font-size:14px;text-align:center;}
+
+      }
+
+      /*라이센스*/
+      #power {width:100%; height:auto; background-color:rgba(17, 19, 31, 0.97);;float:left;display:flex; flex-direction:column;justify-content: center;align-items: center;}
+      #license {width:80%; display:flex; flex-direction: row;flex-wrap:wrap;justify-content: center;align-items: center;}
+      .license {color:#fff;font-size: 12px;margin:40px 0 0 0;}
+      .webflow {margin:30px 0 0 10px;}
+      .webflow a{color:#dba94b;font-size:12px;margin:10px;text-decoration:none;margin:40px 0 0 0;}
+      .webflow a:hover {color:#fff;border-bottom: 1px solid #fff;}
+      #webflow {width:100%; display:flex; flex-direction: row;justify-content: center;align-items: center;

@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+  * {box-sizing: border-box; margin: 0;padding: 0;}
+    ul,li,ol {list-style: none;margin: 0;padding: 0;}
+
+@media(min-width:1260px){
+/*헤더*/
+ header {width:100%;height:150px;position:absolute;left:0;}
+ /*네비*/
+
+.navwrapper {width: 100%; display: flex; align-items: center; justify-content:space-between;}
+
+.logo {width: 300px; line-height: 50px; color:#fff; text-align: center;margin: 0 0 0 30%;}
+.logo a{ height:50px; font-size:50px;  text-decoration:none; color:#fff;font-family:'Great Vibes';float:left;margin:20px 0 0 0;}
+.logo a:hover {color:#dba94b; transition:all 0.5s}
+#navmenu >.home {width:50px;text-decoration:none; color:#dba94b;font-family: 'Scheherazade New', serif;font-size: 16px;}
+#navmenu {width:500px; padding:15px;display:flex; flex-direction: row; flex-wrap:wrap;justify-content: space-between;margin:30px 0 0 0;}
+
+#navmenu a {text-decoration:none;color:#fff;font-family: 'Scheherazade New', serif;margin:10px;font-size:16px;display:flex; flex-direction:row;}
+#navmenu a:hover {color:#dba94b;}
+
+
+ #navmenu1,#hamburger,#reserve2 {display: none;}
+
+#nav1 {display:flex; flex-direction:row; }
+#navmenu > #reserve1 {width:80px; height:50px; border:1px solid #dba94b; border-radius:10px; padding:7px 20px 10px 15px;font-family: 'Scheherazade New', serif;margin:-1px;font-size:16px;text-align:center;}
+#navmenu > #reserve1:hover {background-color:#dba94b;color:#fff;}
+ /*푸터*/
+     #address {width:100%; height:518px;float:left;background-image: linear-gradient(rgba(26, 29, 46, 0.95), rgba(26, 29, 46, 0.95)),url(../img/background5.jpg);background-size:cover;
+      background-position:0px 0px,50% 20%;background-attachment: scroll, fixed;display:flex;justify-content: center;}
+      #addresswrapper {width:100%; height:auto;margin:0 auto;float:left;}
+      #addressbox {width:80%; height:458px;display:flex; flex-direction:row;justify-content: space-between;align-items:flex-start;margin:0 auto;float:left;}
+      #time {width:235px; height:295px; display:flex; flex-direction: column;align-items: flex-start;margin:30px 0 0 20%;position:absolute;}
+      .time1 {color:#dba94b;font-size:16px;margin:10px;}
+      .open {width:225px; height:20px;background-color:#121521;margin:10px 0 0 0;color:#71818a;text-align:center;}
+      #address1 {width:300px;display: flex; flex-direction: column;justify-content:center;align-items: flex-start;margin:0 0 0 65%;position:absolute;}
+      .address3 {width:300px;color:#71818a;text-align:left;margin:30px 0 0 0;}
+      .address2 {color:#dba94b;margin:40px 0 0 0;font-size:16px;}
+      .e-mail {color:#dba94b;margin:30px 0 0 0;font-size:16px;}
+
+
+      #touchwrapper {width:100%; height:auto;display:flex; flex-direction:column; justify-content: center; align-items:center;float:left;}
+      #touch {width:25%; height:auto;}
+      #touch > .touch1 {width:100%; height:503px; background-color:#eee; border:7px solid #dba94b;float:left;margin:0 auto;border-radius:5px;position:relative;margin-top: -505px;top:-100px;}
+      #touch > .touch1 form {width:100%;display:flex; flex-direction:column; flex-wrap:wrap;align-content:center;align-items:center;}
+      label {width:100%; font-size:34px; font-family:'Great Vibes';color:#dba94b;margin:10px auto;text-align:center;}
+      #lname {width:80%; height:38px;margin:10px;padding:10px;border:1px solid rgba(226, 226, 226);border-radius:3px;}
+      #lname1 {width:80%; height:170px;padding:10px;border:1px solid rgba(226, 226, 226);border-radius:3px;}
+      #lname:hover {background-color:#f2f2f2;}
+      #lname1:hover {background-color:#f2f2f2;}
+      .btn4 {width: 80%;padding:20px 10px;margin:10px;border:none;color:#eee; background-color:#434654;border-radius:3px;}
+      .btn4:hover{background-color:rgba(26, 29, 46, 0.97);}
+
+      #touchiconwrapper {width:450px; height:auto;display:flex;align-content: center; justify-content:center;}
+      #touchicon {width:100%; height:75px; float:left;display:flex;align-content: center; justify-content:center;margin:50px auto;}
+      #touchicon i {width:30px; height:30px; color:#fff;margin:10px;text-align:center;border:1px solid #dba94b;line-height: 30px;border-radius:3px;}
+      .iconlast {width:30px; height:30px;margin:10px; border:1px solid #dba94b;border-radius:3px;}
+      #touchicon img {width:70%; height:70%;margin:3px;}
+      #touchicon > i:hover {background-color:#dba94b;transition: all 0.5s;}
+      .iconlast:hover {background-color: #dba94b;transition: all 0.5s;}
+
+
+}
+
+
+
+/*라이센스*/
+#power {width:100%; height:auto; background-color:rgba(17, 19, 31, 0.97);;float:left;display:flex; flex-direction:column;justify-content: center;align-items: center;}
+#license {width:80%; display:flex; flex-direction: row;flex-wrap:wrap;justify-content: center;align-items: center;}
+.license {color:#fff;font-size: 12px;margin:40px 0 0 0;}
+.webflow {margin:30px 0 0 10px;}
+.webflow a{color:#dba94b;font-size:12px;margin:10px;text-decoration:none;margin:40px 0 0 0;}
+.webflow a:hover {color:#fff;border-bottom: 1px solid #fff;}
+#webflow {width:100%; display:flex; flex-direction: row;justify-content: center;align-items: center;}

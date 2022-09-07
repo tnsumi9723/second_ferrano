@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+
+* {box-sizing: border-box; margin: 0;padding: 0;}
+      ul,li,ol {list-style: none;margin: 0;padding: 0;}
+
+@media (min-width:600px){
+ /*서브 슬라이더*/
+        #subslider {width:100%; height: 500px; background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/italianfood.png); background-size:cover; 
+          background-repeat:no-repeat; background-position:center;background-attachment: scroll, scroll; }
+        .subcontainer {width:400px; height:300px; margin: 0 auto;display:flex; flex-direction:column; justify-content: center; align-items:center;align-content: center;}
+        .sub {color:#dba94b; font-size:24px; text-align: center;font-family:'Great Vibes';margin:150px 0 10px 0;}
+        .su {font-size:34px;text-align: center;color:#fff; font-family:Arial, Helvetica, sans-serif;margin:10px;}
+        .p2 {color:#dba94b; font-size:12px; text-align: center;font-family:'Great Vibes';margin:10px;}
+
+        /*서브메인*/
+        #wrap {width:100%; height:auto;}
+        #subbox {width:100%; height:auto; display:flex; flex-direction:column; }
+
+        /*서브메인1*/
+        #contentwrapper {width:100%; height:auto; display:flex;flex-direction:column;margin:0 auto;}
+        .content{width:80%; height:auto;padding:10px; margin:0 auto;}
+        .name {width:100%; height:50px; color:#000; font-family:'Great Vibes';text-align:left; padding:10px;margin:50px 0 0 0;}
+        .date1 {width:100%; height:50px; font-size:12px; color:#ccc;padding:10px;}
+        .imoj {width:100%; height:20px; color:#dba94b; font-size:10px;padding:10px;}
+        .bigimg {width:100%; height:500px; margin:10px 0 0 0 ;}
+        #tag {width:100%; height:50px; display:flex; flex-direction:row;}
+        .tag {font-weight:bold; font-family:Arial, Helvetica, sans-serif;margin:20px 10px 20px 0px;}
+        .tag1 {font-family:Arial, Helvetica, sans-serif;background-color:#ccc; margin:10px;padding:10px;font-style:italic;font-size:12px;color:#666; }
+        .tag1:hover {color:#dba94b;}
+        .content1 {width:100%; height:auto; padding:10px;}
+        #buttonicon {display:flex; flex-direction:row;justify-content:space-between;}
+        .btn5 {width:100px; height:50px;padding:10px;margin:10px 10px 10px 0; border:none; background-color:#dba94b; font-weight: bold; font-size:12px;border-radius:5px;color:#fff;}
+        .btn5:hover {background-color:#181a26; }
+        #iconimo {width:160px; height:45px;display:flex; flex-direction:row;justify-content: space-between;border:1px solid rgb(211, 211, 211);margin:15px;background-color:#eee;}
+        .iconimo1 {width:160px; height:30px; display:flex; flex-direction:row;justify-content: center;margin:10px;}
+        .iconimj {width:20px; height:30px;}
+        .iconimj img {width:15px; height:15px;}
+        .i {font-size:12px;}
+
+        /*서브메인2*/
+        #subcontent {width:100%;height:auto;margin:0 auto;}
+
+        #bigcon {width:90%; height:auto; margin:0 auto;margin:0 auto;}
+        .search_a {width:100%; height:80px; background-color:#f9f9f9;display:flex; flex-direction:row; 
+          justify-content:center;align-items:center;margin:50px 0 40px 0;}
+        .textbox {width:70%; height:45px;border:1px solid #eee;}
+        .MG {width: 20%; height:45px; background-color:#dba94b;border:none;}
+        .MG img {width:20px; height:20px;}
+
+        #sub_cont1 {width:100%; height:auto;margin:0 auto; }
+        .aboutus {width:100%; height:50px; background-color:#f9f9f9; text-align:center;line-height:50px; }
+        #sub_img {width:100%; height:450px; }
+        #sub_img img{width:100%; height:100%;margin:10px auto;}
+        #sub_img > .sub_name {width:100%; height:18px;margin:10px 0 10px 0;}
+
+        #sub_cont2 {width:100%; height:auto;margin:180px 0 80px 0;}
+        #smallimg {width:100%; height:auto;margin:10px 0 10px 0;display:flex; flex-direction: column;}
+        .smallwrapper {display:flex; flex-direction:row;margin:10px 0 10px 0px;}
+        .small {width:50%; height:50%;}
+        .small img {width:100%; height:100%;}
+        .smalltext {width:100%; height:100%; margin:0 0 0 30px;}
+        .smalltext2 {font-size:12px;}
+        .smalltext3 {font-size:12px; font-weight:bold;}
+
+        #sub_cont3 {width:100%; height: 200px;margin:20px 0 20px 0; }
+
+        .btn6 {width:auto; height:35px;margin:20px 0 0 0 ;padding:10px;font-size:12px;border:none; background-color:#dba94b; color:#fff;border-radius:5px;}
+        .btn6:hover {background-color:#181a26;}
+
+        #sub_cont4 {width:100%; height:200px; margin:20px 0 0 0;}
+        #sub_cont4 >  ul > li {display:flex; justify-content: space-between; align-items: center;position:relative;margin:20px 0 0 0;}
+        #sub_cont4 >  ul > li > a {text-decoration:none; color:#000;font-size:14px;}
+        #sub_cont4 > ul > li ::before {content:''; position: absolute; bottom: 0; left: 0; right: 50px; border-top: 1px dotted #ccc;}
+        #sub_cont4 > ul > li > a:hover {color:#dba94b;}
+        #sub_cont4 > ul > li > span {width:20px; height:20px; border-radius:50px; background-color:#dba94b;font-size:14px;text-align:center;}
+
+        #sub_cont5 {width:100%; height:100px;margin:100px 0 50px 0;}
+        i {width:25px; height:25px;background-color:#181a26; color:#eee;text-align:center;margin:20px 0 0 0;padding:5px;border-radius:5px;}
+        i:hover {color:#dba94b;}
+
+}
